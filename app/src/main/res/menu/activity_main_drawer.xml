@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dens"
+            android:icon="@drawable/ic_menu_castle"
+            android:title="Dens" />
+        <item
+            android:id="@+id/nav_explore"
+            android:icon="@drawable/ic_menu_explore"
+            android:title="Explore" />
+        <item
+            android:id="@+id/nav_victims"
+            android:icon="@drawable/ic_menu_victim"
+            android:title="Victims" />
+        <item
+            android:id="@+id/nav_activity"
+            android:icon="@drawable/ic_menu_timeline"
+            android:title="Activity Log" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
