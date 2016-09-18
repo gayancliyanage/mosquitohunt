@@ -1,5 +1,6 @@
 package com.example.diyalagoda.mosqhalpha;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -101,7 +102,7 @@ public class MainActivity extends AppCompatActivity
             fab.setVisibility(View.VISIBLE);
         } else if (id == R.id.nav_explore) {
             ft.replace(R.id.your_placeholder, new ExploreFragment());
-            title="Explore";
+            title ="Explore";
         } else if (id == R.id.nav_victims) {
             ft.replace(R.id.your_placeholder, new VictimsFragment());
             title ="Victims";
